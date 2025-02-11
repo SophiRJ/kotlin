@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@color/celeste"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@color/black"
+        android:hint="@string/hint_editText"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_aniadir"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text" />
+
+    <Button
+        android:id="@+id/btn_borrar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_borrar"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/btn_agregar"
+        app:layout_constraintStart_toStartOf="@+id/btn_agregar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_agregar" />
+
+    <Button
+        android:id="@+id/actualizar_lista"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30sp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/btn_actualizar"
+        app:layout_constraintEnd_toEndOf="@+id/btn_borrar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_borrar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_borrar" />
+
+
+    <TextView
+        android:id="@+id/vistaTexto"
+        android:layout_width="254dp"
+        android:layout_height="283dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actualizar_lista"
+        app:layout_constraintVertical_bias="0.489" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

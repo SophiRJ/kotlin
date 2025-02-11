@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Contador</string>
+    <string name="textViewContador">textViewContador</string>
+    <string name="btAdd">btAdd</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Listas</string>
+    <string-array name="array_hsbilitado">
+        <item>Seleccciona opcion</item>
+        <item>Habilitado</item>
+        <item>Deshabilitado</item>
+    </string-array>
+</resources>

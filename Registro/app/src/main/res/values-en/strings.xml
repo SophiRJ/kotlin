@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Registro</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="correo">Mail</string>
+    <string name="contrase_a">Password</string>
+    <string name="login">Log in</string>
+    <string name="tvRegistro">Dont have account? Sing up</string>
+    <string name="etName">Name</string>
+    <string name="apellido">Last Name</string>
+    <string name="registro_email">Mail</string>
+    <string name="registro_contrasenia">Password</string>
+    <string name="telefono">Phone</string>
+    <string name="registrar">Register</string>
+    <string name="volver">Back</string>
+    <string name="vaciar">Clear</string>
+    <string-array name="perfiles">
+        <item>Usuario</item>
+        <item>Invitado</item>
+        <item>Administrador</item>
+    </string-array>
+</resources>

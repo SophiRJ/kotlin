@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RetoDosRev</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="btn_aniadir">Añadir elemento</string>
+    <string name="btn_borrar">Borrar elemento</string>
+    <string name="btn_actualizar">Actualizar lista</string>
+    <string name="hint_editText">Introduce elemento</string>
+
+
+</resources>
